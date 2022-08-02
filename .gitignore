@@ -20,7 +20,7 @@ erl_crash.dump
 *.ez
 
 # Ignore package tarball (built via "mix hex.build").
-hello-*.tar
+ecommerce-*.tar
 
 # Ignore assets that are produced by build tools.
 /priv/static/assets/
