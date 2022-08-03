@@ -5,6 +5,7 @@ defmodule Ecommerce.ShoppingCart.Cart do
   schema "carts" do
     field :user_uuid, Ecto.UUID
 
+    has_many :cart_items, Ecommerce.ShoppingCart.CartItem
     timestamps()
   end
 
