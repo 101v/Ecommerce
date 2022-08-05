@@ -6,8 +6,8 @@ defmodule Ecommerce.ShoppingCart.CartItem do
     field :price_when_carted, :decimal
     field :quantity, :integer
 
-    belongs_to :carts, Ecommerce.ShoppingCart.Cart
-    belongs_to :products, Ecommerce.Catalog.Product
+    belongs_to :cart, Ecommerce.ShoppingCart.Cart
+    belongs_to :product, Ecommerce.Catalog.Product
 
     timestamps()
   end
